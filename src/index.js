@@ -1,6 +1,7 @@
 import _ from 'lodash'
 import './style.css'
 import Profile from './profile.jpg'
+import Data from './data.xml'
 
 function component() {
   var element = document.createElement('div');
@@ -12,6 +13,8 @@ function component() {
   profileImg.src = Profile
 
   element.appendChild(profileImg)
+
+  console.log(Data)
 
   return element;
 }
