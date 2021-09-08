@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack server"
+    "dev": "webpack server --open"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
